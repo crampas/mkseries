@@ -1,0 +1,21 @@
+{
+  "name": "mkseries",
+  "version": "0.1.0",
+  "description": "rename utility for stop-motion picture resources",
+  "bin": {
+    "mkseries": "src/mkseries.js"
+  },
+  "scripts": {
+    "test": "mocha src/*.test.js"
+  },
+  "author": "Markus Weskott",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "commander": "^2.19.0",
+    "glob": "^7.1.3"
+  }
+}
